@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Glady AutF_AllureParallel" thread-count="1" parallel="methods"
+	data-provider-thread-count="1">
+	<listeners>
+		<listener class-name="listeners.AllureIOSListener"></listener>
+	</listeners>
+
+	<test name="TestStoneEdgeTraderAndroid">
+
+		<classes>
+			<!--<class name="mobile.ios.test.NotificationsQuickTest" />-->
+			<class name="mobile.ios.test.LoginTest" />
+			<class name="mobile.ios.test.NewsTest" />
+			<class name="mobile.ios.test.InfoTest" />
+			<class name="mobile.ios.test.WatchlistTest" />
+			<class name="mobile.ios.test.DepthTest" />
+			<class name="mobile.ios.test.ChartTest" />
+			<class name="mobile.ios.test.TradingQuickTest" />
+			<class name="mobile.ios.test.OrdersTest" />
+			<class name="mobile.ios.test.PositionsTest" />
+			<class name="mobile.ios.test.NotificationsTest" />
+			<!--<class name="mobile.ios.test.TradingTest" />-->
+			<class name="mobile.ios.test.SignUpTest" />
+			<class name="mobile.ios.test.SettingsTest" />
+			<class name="mobile.ios.test.TransactionsTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

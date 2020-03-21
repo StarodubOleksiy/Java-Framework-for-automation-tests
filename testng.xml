@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Glady AutF_AllureParallel" thread-count="1" parallel="methods"
+	data-provider-thread-count="1">
+	<listeners>
+		<listener class-name="listeners.AllureListener"></listener>
+		<!--<listener class-name="listeners.RetryTestListener"></listener>-->
+		<!--<listener class-name="com.automation.remarks.testng.VideoListener"></listener>-->
+	</listeners>
+
+	<test name="TestStoneEdgeTrader">
+
+		<classes>
+			<class name="tests.MarketCheckTest" />
+			<class name="tests.SignupPage" />
+			<class name="tests.LoginPage" />
+			<class name="tests.BuySell" />
+
+			<class name="tests.registration.OpenIndividualAccountPage" />
+			<class name="tests.registration.IndividualRegistrationMainFlow" />
+			<class name="tests.registration.CustomerInformationPage" />
+			<class name="tests.registration.CRSSelfCertificationRegistrationPage" />
+			<class name="tests.registration.FATCASelfCertificationRegistrationPage" />
+			<class name="tests.registration.EducationAndOccupationRegistrationPage" />
+			<class name="tests.registration.PoliticallyExposedPersonsRegistrationPage" />
+			<class name="tests.registration.InvestmentProfilePage" />
+			<class name="tests.registration.FinancialStatusAndExperiencePage" />
+			<class name="tests.registration.PaymentDetailsPage" />
+			<class name="tests.registration.ExplicitDeclarationsAndDocumentsPage" />
+
+
+			<class name="tests.DashboardPage" />
+			<class name="tests.NewsPageTest" />
+			<class name="tests.widgets.ManageWidgetsTest" />
+			<class name="tests.widgets.NewsWidgetTest" />
+			<class name="tests.widgets.MarketDepthWidgetTest" />
+			<class name="tests.widgets.TicketWidgetTest" />
+			<class name="tests.widgets.WatchlistWidgetTest" />
+			<class name="tests.widgets.PositionsAndOrdersWidgetTest" />
+			<class name="tests.settings.TradingSettingsTest" />
+			<class name="tests.settings.AppearanceTest" />
+			<class name="tests.AccountSwitchTest" />
+			<class name="tests.InstrumentsTest" />
+			<class name="tests.finance.AccountStateWindowTest" />
+			<class name="tests.finance.FundsWithdrawalTest" />
+			<class name="tests.finance.PaymentMethodsWindowTest" />
+			<class name="tests.finance.TransactionsTest" />
+
+			<class name="tests.HistoryNotificationsTest" />
+			<class name="tests.HistoryOrdersTest" />
+			<class name="tests.HistoryTradesTest" />
+
+			<class name="tests.dealerdesk.DealerDeskGeneralTest" />
+			<class name="tests.dealerdesk.DealerDeskDashboardTest" />
+			<class name="tests.dealerdesk.DealerDeskAccountsTest" />
+			<class name="tests.dealerdesk.DealerDeskOrdersTest" />
+
+			<class name="tests.settings.SmsNotificationTest" />
+			<class name="tests.ResetPasswordTest" />
+			<class name="tests.settings.ChangePasswordTest" />
+			<class name="tests.widgets.ChartWidgetTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
