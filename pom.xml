@@ -16,7 +16,7 @@
 		<selenium.version>4.0.0-alpha-4</selenium.version>
 		<allure.version>RELEASE</allure.version>
 		<aspectj.version>1.8.10</aspectj.version>
-		<apachepoi.version>3.13</apachepoi.version>
+		<apachepoi.version>4.1.1</apachepoi.version>
 		<slf4j.version>1.7.24</slf4j.version>
 
 	</properties>
